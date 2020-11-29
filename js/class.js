@@ -138,14 +138,14 @@
 
 //================================
 
-const images = ['image-1', 'image-2', 'image-3', 'image-4', 'image-5', 'image-6',]
+// const images = ['image-1', 'image-2', 'image-3', 'image-4', 'image-5', 'image-6',]
 
-let currentImageIdx = 0
-console.log(images[currentImageIdx]); 
-currentImageIdx += 1
-console.log(images[currentImageIdx]);
-currentImageIdx -= 1
-console.log(images[currentImageIdx]);
-currentImageIdx += 1
-console.log(images[currentImageIdx]);
+// let currentImageIdx = 0
+// console.log(images[currentImageIdx]); 
+// currentImageIdx += 1
+// console.log(images[currentImageIdx]);
+// currentImageIdx -= 1
+// console.log(images[currentImageIdx]);
+// currentImageIdx += 1
+// console.log(images[currentImageIdx]);
 
