@@ -199,18 +199,18 @@
 
 //=====================
 
-const numbers = [12, 15, 25, 37, 41, 62, 74, 83]
-const minNumber = 12;
-const maxNumber = 83;
+// const numbers = [12, 15, 25, 37, 41, 62, 74, 83]
+// const minNumber = 12;
+// const maxNumber = 83;
 
-// console.log(numbers.includes(25))
+// // console.log(numbers.includes(25))
 
-const numberToFind = prompt('w')
-let result = 'wow'
+// const numberToFind = prompt('w')
+// let result = 'wow'
  
-for (const number of numbers)
-    if (number === Number(numberToFind)) {
-        result = 'congratulation' 
-        break
-    }
- alert(result)
+// for (const number of numbers)
+//     if (number === Number(numberToFind)) {
+//         result = 'congratulation' 
+//         break
+//     }
+//  alert(result)
