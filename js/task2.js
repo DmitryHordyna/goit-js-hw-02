@@ -7,6 +7,22 @@
 
 const calculateEngravingPrice = function(message, pricePerWord) {
   // твой код
+
+  let total = 0;
+  const words = message.split(' ');
+  for (const word of words) {
+    total += pricePerWord ;
+    
+   }
+  return total
+   
+  // варіант 2
+
+  // const words = message.split(' ');
+  // const length = words.length;
+  // const total = length * pricePerWord;
+
+  // return total
 };
 
 /*
@@ -33,3 +49,4 @@ console.log(
 console.log(
   calculateEngravingPrice('Donec orci lectus aliquam est magnis', 20),
 ); // 120
+
