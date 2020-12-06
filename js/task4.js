@@ -9,6 +9,27 @@
 //до 40 - ка символов и добавляет в конец строки троеточие
 //'...', после чего возвращает укороченную версию.
 
+
+const formatString = function (string) {
+
+  const howSumbols = string.length
+  
+  if (howSumbols > 40) {
+
+    const cutSumbols = string.slice(0, 39)
+    const screenSumbols = `${cutSumbols} ...`
+  
+    return screenSumbols
+
+  } else {
+
+    return string
+    
+  }
+}
+  
+
+
 /*
   Вызовы функции для проверки работоспособности твоей реализации.
  */

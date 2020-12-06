@@ -13,6 +13,7 @@ let longestWord = words[0];
   // console.log(longestWord)
   
   for (let i = 0; i < words.length; i += 1){
+    
     // console.log(`i`, i)
     // console.log(`words[i]`, words[i])
     
@@ -25,9 +26,8 @@ let longestWord = words[0];
   if (currentWordsLength >  longestWordLength) {
         longestWord=currentWord
   }
-   
 }
- console.log(longestWord);
+  return longestWord
 }
 
 
