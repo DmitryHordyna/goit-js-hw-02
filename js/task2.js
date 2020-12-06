@@ -5,7 +5,7 @@
 //и цену гравировки одного слова, и возвращающую цену 
 //гравировки всех слов в строке.
 
-const calculateEngravingPrice = function(message, pricePerWord) {
+const calculateEngravingPrice = function(message = ' ', pricePerWord = 0) {
   // твой код
 
   let total = 0;

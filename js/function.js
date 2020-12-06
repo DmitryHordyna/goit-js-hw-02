@@ -116,5 +116,122 @@
   
 //===================================
 
-//предикатнрие фуккции
+//параметри по умолчание
+// const counter = function (initialalue = " ", step = 1) {
+    
+// }
+// counter(3, 4);
 
+//передача по силке
+
+// const double = function (array) {
+//     console.log('array arg: ', array)
+   
+//     for (let i = 0; i < array.length; i += 1){
+//         array[i]= array[i]*2
+//     }
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// double(numbers);
+
+// console.log('numbers:',numbers);
+
+
+
+//предикатнрие фуккции
+//возращают тру фолс
+
+// const isEqual = function (a, b) {
+//     return a === b;
+// }
+
+// console.log(isEqual(5, 2))
+// console.log(isEqual(5, 5))
+
+
+// Array.isArray;
+// Number.isNaN;
+// Number.isInteger;
+
+//aeyrwsz ckj;tybt ghjw xbctk
+
+// const add = function () {
+//     console.log(arguments);
+//     let total = 0
+
+//     for (let i = 0; i < arguments.length; i += 1){
+//         total +=arguments[i]
+//     }
+//     return total
+// }
+// console.log(add(1,2,3))
+// console.log(add(1,2,3,4))
+// console.log(add(1,2,3,3,5,6))
+
+// const add = function () {
+//     console.log(arguments)
+//     const args = Array.from(arguments)
+//     const mult = arguments[0];
+//     let total = 0
+//     for (let i = 1; i < arguments.length; i += 1){
+//         total +=[i]
+//     }
+//     return total * mult
+// }
+// console.log(add(5, 1,2,3))
+// console.log(add(10, 1,2,3,4))
+// console.log(add(15,1,2,3,3,5,6))
+
+
+// const add = function () {
+
+//     let  args = Array.from(arguments)
+//     const mult = args[0]
+//     args = args.slice(1);
+//     // args = args.shift();
+
+//     let total = 0
+  
+//     for (let i = 0; i < args.length; i += 1){
+//         total += args[i]
+//     }
+//     return total * mult
+// }
+// console.log(add(5, 1,2,3))
+// console.log(add(10, 1,2,3,4))
+// console.log(add(15,1,2,3,3,5,6))
+
+//операция rest
+
+// const add = function (...args) {
+
+// console.log('args: ', args)
+
+//      let total = 0
+  
+//     for (let i = 0; i < args.length; i += 1){
+//         total += args[i]
+//     }
+//     return total 
+// }
+
+// console.log(add(5, 1,2,3))
+// console.log(add(10, 1,2,3,4))
+// console.log(add(15,1,2,3,3,5,6))
+
+///
+
+
+const add = function (mult,...args) {
+
+    let total = 0
+    for (let i = 0; i < args.length; i += 1){
+        total += args[i]
+    }
+    return total * mult
+}
+console.log(add(5, 1,2,3))
+console.log(add(10, 1,2,3,4))
+console.log(add(15,1,2,3,3,5,6))
