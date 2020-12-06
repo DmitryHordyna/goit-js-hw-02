@@ -15,18 +15,18 @@ const checkForSpam = function(message) {
 
   const wordToLowerCase = message.toLowerCase();
   let wordSplit = wordToLowerCase.split(' ');
+ console.log(wordSplit)
+  // for (let i = 0; i < message.length; i += 1){
  
-  for (let i = 0; i < message.length; i += 1){
- 
-    let word =wordSplit[i]
-   
-    if (word === SALE) {
-      return true
-    } else if (String.word === SPAM) {
-      return true
-    }
-  }
- return false
+//     let word =wordSplit[i]
+//          console.log(String(word))
+//     if (word === SALE) {
+//       return true
+//     } else if (word === SPAM) {
+//       return true
+//     }
+//   }
+//  return false
 };
 
 /*
