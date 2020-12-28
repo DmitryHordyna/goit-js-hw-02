@@ -28,7 +28,13 @@ const checkForSpam = function(message) {
 //   }
 //  return false
 };
+ const SPAM = 'spam'
+  const SALE = 'sale'
+  let result;
 
+  const wordToLowerCase = message.toLowerCase();
+  let result = wordToLowerCase.includes(SPAM)||wordToLowerCase.includes(SALE);
+ return result
 /*
   Вызовы функции для проверки работоспособности твоей реализации.
  */
