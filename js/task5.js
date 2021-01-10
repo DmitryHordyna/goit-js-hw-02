@@ -103,20 +103,46 @@
 // }
 //   console.log(getEvenNumbers(3, 11))
 
-function includes(array, value) {
-  // Пиши код ниже этой строки
+// function includes(array, value) {
+//   // Пиши код ниже этой строки
 
-  for (let number of array) {
-    console.log(number);
-    if (number === value) {
-      return true
-    }
-  }
-    //   }else{
-    //     return false}
+//   for (let number of array) {
+//     console.log(number);
+//     if (number === value) {
+//       return true
+//     }
+//   }
+//     //   }else{
+//     //     return false}
       
-    // }
-  // Пиши код выше этой строки
-}
+//     // }
+//   // Пиши код выше этой строки
+// }
 
-console.log(includes([1, 2, 3, 4, 5], 3));
+// console.log(includes([1, 2, 3, 4, 5], 3));
+// const apartment = {
+//   descr: 'Просторная квартира в центре',
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = [];
+// const values = [];
+// // Пиши код ниже этой строки
+
+// for(const values in apartment){
+//    console.log(apartment[key])
+// }
+// const book = {
+//   title: 'Последнее королевство',
+//   author: 'Бернард Корнуэлл',
+//   genres: ['историческая проза', 'приключения'],
+//   rating: 8.38,
+// };
+// const keys=[]
+// for (const key in book) {
+//   // Ключ
+//   keys++key
+//   console.log(keys);
+//   // Значение свойства с таким ключом
+//   console.log(book[key]);
+// }
